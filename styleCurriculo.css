@@ -24,7 +24,7 @@ body{
 
 .cabecalho_menu_links{
     font-family:'Montserrat', sans-serif;
-    font-size: 24;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: #ffff;
@@ -32,9 +32,9 @@ body{
 
 .rodape {
     background-color: #769eef;
-    padding: 15px;
+    padding: 1vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 400;
     text-align: center;
 }
@@ -44,23 +44,14 @@ body{
     display: flex;
     gap: 10%;
     background-color: #769eef;
-    height: 250px;
-}
-
-.quadro{
-    display: flex;
-    justify-content: center;
+    height: 20vw;
     align-items: center;
-    background-color: #ffff;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
 .foto{
-    height: 195px;
-    width: 195px;
+    height: 17vw;
     border-radius: 50%;
+    border: 0.2vw solid #fff;
 }
 
 .descricao{
@@ -73,14 +64,14 @@ body{
 .nome{
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 3.5vw;
     color: #fff;
 }
 
 .profissao{
     font-family:'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2vw;
     color: #fff;
 }
 
@@ -89,37 +80,41 @@ body{
     display: flex;
     flex-direction: column;
     align-items:baseline;
-    justify-content: space-between;
-    gap: 14px;
+    gap: 1vw;
 }
 
 .descricao_contato_links{
     font-family:'Montserrat', sans-serif;
     color: #ffff;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 500;
     display: flex;
     text-align: center;
-    gap: 10px;
+    gap: 1vw;
     text-decoration: none;
+    align-items: center;
 
+}
+
+.icone_contato{
+    height: 2vw;
 }
 
 .conteudo{
     padding: 5% 10%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.5vw;
 }
 
 .conteudo_topico{
     
     background-color: #769eef;
     font-family:'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 2.5vw;
     color: #ffff;
-    width: 200px;
-    height: 60px;
+    width: 17vw;
+    height: 5vw;
 
     display: flex;
     justify-content: center;
@@ -131,7 +126,7 @@ body{
     padding: 1% 0% 1% 2%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.5vw;
 }
 
 .conteudo_Box{
@@ -144,43 +139,51 @@ body{
 .conteudo_Box_texto{
     padding: 1%;
     background-color:#ffff;
-    border-left: 5px solid #769eef;
-    width: 250px;
+    border-left: 0.5vw solid #769eef;
+    width: 20vw;
 
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.5vw;
 }
 
 .conteudo_texto{
     font-family:'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #313131;
     padding-left: 1%;
 }
 
 .conteudo_subtextos{
     font-family:'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #313131;
 
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 0.1vw;
     
 }
 
 .conteudo_subtexto{
     padding-left: 1%;
+    font-size: 1.1vw;
 }
 
 .conteudo_Box_subtexto{
     padding: 1%;
     background-color:#ffff;
-    border-left: 5px solid #769eef;
-    width: 500px;
+    border-left: 0.5vw solid #769eef;
+    width: 40vw;
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1vw;
+}
+
+@media (max-width: 1070px){
+    .nomeo{
+        font-size: 2rem ;
+    }
+
 }
