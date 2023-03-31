@@ -180,10 +180,3 @@ body{
     flex-direction: column;
     gap: 1vw;
 }
-
-@media (max-width: 1070px){
-    .nomeo{
-        font-size: 2rem ;
-    }
-
-}
