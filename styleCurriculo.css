@@ -12,9 +12,14 @@ body{
     color:#F6F6F6;
 }
 
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .cabecalho{
     padding: 2% 0% 2% 10%;
-    background-color: #769eef; 
+    background-color: #3f64ad; 
 }
 
 .cabecalho_menu{
@@ -31,7 +36,7 @@ body{
 }
 
 .rodape {
-    background-color: #769eef;
+    background-color: #3f64ad;
     padding: 1vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
@@ -43,15 +48,15 @@ body{
     padding: 2% 10%;
     display: flex;
     gap: 10%;
-    background-color: #769eef;
+    background-color: #3f64ad;
     height: 20vw;
     align-items: center;
 }
 
 .foto{
-    height: 17vw;
+    height: 20vw;
     border-radius: 50%;
-    border: 0.2vw solid #fff;
+    border: 3px solid #fff;
 }
 
 .descricao{
@@ -109,7 +114,7 @@ body{
 
 .conteudo_topico{
     
-    background-color: #769eef;
+    background-color: #3f64ad;
     font-family:'Montserrat', sans-serif;
     font-size: 2.5vw;
     color: #ffff;
@@ -136,15 +141,15 @@ body{
     gap: 2%;
 }
 
-.conteudo_Box_texto{
-    padding: 1%;
-    background-color:#ffff;
-    border-left: 0.5vw solid #769eef;
-    width: 20vw;
 
-    display: flex;
+.Box{
+    padding: 10px 20px 10px 10px;
+    background-color:#ffff;
+    border-left: 0.5vw solid #3f64ad;
+
+    display: inline-block;
     flex-direction: column;
-    gap: 0.5vw;
+    margin-left: 20px;
 }
 
 .conteudo_texto{
@@ -152,6 +157,7 @@ body{
     font-size: 1.5vw;
     color: #313131;
     padding-left: 1%;
+    padding: 4px;
 }
 
 .conteudo_subtextos{
@@ -179,4 +185,50 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1vw;
+}
+
+.lista{
+    padding-left: 15px;
+}
+
+@media (min-width: 1500px){
+
+    .apresentacao{
+        max-height: 300px;
+    }
+
+    .foto{
+        max-height: 300px;
+    }
+
+    .nome{
+        font-size: 52px;
+    }
+
+    .profissao{
+        font-size: 30px;
+    }
+
+    .descricao_contato_links{
+        font-size: 30px;
+    }
+
+    .icone_contato{
+        max-height: 30px;
+    }
+
+    .conteudo_topico{
+        font-size: 38px;
+
+        width: 250px;
+        height: 75px;
+    }
+
+    .conteudo_texto{
+        font-size: 22px;
+    }
+
+    .rodape{
+        font-size: 30px;
+    }
 }
